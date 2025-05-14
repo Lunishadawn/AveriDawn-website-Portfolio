@@ -7,24 +7,14 @@ body {
 	background-color:#d9d5d5;
 }
 
-h1 {
-	width: 100vw;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	justify-content: center;
-	background-color:#1ea0cc;
+#NavBar {
+	width: auto;
+	overflow: hidden;
 }
-
-p {
-	color:#E81114;
-}
-
 
 .symbolavery {
-	width:10vw;
-	height:10vh; 
-	/* overflow: hidden; */
+	width:100px;
+	height:100px; 
 	margin: 0px;
 	padding: 0px;
 	background-color:#FFFFFF;
@@ -32,13 +22,13 @@ p {
 }
 
 ol {
-	width: 90vw;
+	width: 100vw;
 	
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden ;
-	background-color:#0fa8bc;
+	background-color:#218b9a;
 	
 	
 }
@@ -46,7 +36,7 @@ ol {
 li {
 	width: 100px;
 	height: auto;
-	float: right;
+	float: left;
 	
 }
 
@@ -64,6 +54,21 @@ li a:hover {
 	background-color: #AF16DB
 }
 
+h1 {
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color:#1ea0cc;
+}
+
+p {
+	color:#E81114;
+}
+
+
+
 #Avery {
 	width: 200px;
 	height: auto;
@@ -74,15 +79,24 @@ li a:hover {
 }
 
 #slideshow {
-	width: 50vw;
+	width: 100px;
 }
 
 .slides {
 
-	width: 600px;
+	width: 300px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	border-radius: 20px;
 	
+}
+
+.Footer {
+	width: 400px;
+	height: 200px;
+}
+
+.Footer p {
+	width: 50vw;
+	color: black
 }
