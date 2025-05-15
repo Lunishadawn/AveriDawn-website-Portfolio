@@ -80,6 +80,7 @@ p {
 
 #slideshow {
 	width: 100px;
+	margin: auto
 }
 
 .slides {
@@ -92,11 +93,14 @@ p {
 }
 
 .Footer {
+	border: #1ea0cc;
 	width: 400px;
 	height: 200px;
+	margin: auto;
 }
 
 .Footer p {
 	width: 50vw;
-	color: black
+	color: black;
+	
 }
