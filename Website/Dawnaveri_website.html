@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="Dawnaveri_css_style_sheet.css" />
 
     <!-- Font-Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <title>Dawnaveri website home</title>
   </head>
@@ -17,11 +20,11 @@
 
     <!-- Navigation Bar -->
     <nav id="NavBar">
-      <img
+      <!-- <img
         class="symbolavery"
         src="Website Images/symbol _Avery.png"
         alt="Avery McClendon's brand symbol"
-      />
+      /> -->
       <ol>
         <li><a href="Dawnaveri_website.html">Home</a></li>
         <li><a href="Pages/Porfolio.html">Portfolo</a></li>
@@ -29,10 +32,16 @@
       </ol>
     </nav>
     <main>
-      <figure>
-        <h1>Avery McClendon's Portfolo</h1>
+      <!-- My picture iwth short Info label -->
+      <section id="topsection">
         <img id="Avery" src="Website Images/Avery.jpeg" alt="Avery McClendon" />
-      </figure>
+        <div id="info">
+          <p>
+            Avery Grace McClendon <br />
+            Programmer | Artist | Texan
+          </p>
+        </div>
+      </section>
       <!-- Slide show of artwork -->
       <section id="slideshow">
         <img
@@ -66,16 +75,16 @@
     <!-- Footer -->
 
     <footer class="Footer">
-     
-      <p>
-        <strong> Avery McClendon's Portfolo</strong>
-      </p>
-      <i class="fa fa-linkedin"></i>
+      <h1>Contact Me</h1>
+      <form action="">
+        <input type="email" placeholder="Type Email Address" />
+        <button type="submit">Submit</button>
+      </form>
+
+      <!-- <i class="fa fa-linkedin"></i> -->
     </footer>
 
     <!-- Personal Javascript -->
     <script src="DawnaveriScript.js"></script>
-
   </body>
 </html>
-

@@ -63,8 +63,8 @@ h1 {
 	background-color:#1ea0cc;
 }
 
-p {
-	color:#E81114;
+#topsection{
+	background-color: #AF16DB;
 }
 
 
@@ -73,14 +73,25 @@ p {
 	width: 200px;
 	height: auto;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+	padding: 20px;
 	border-radius: 50%;
+	float: left;
+}
+
+#info {
+	width: 100px;
+	height: 100px;
+	padding: 70px;
+	
+	
 }
 
 #slideshow {
-	width: 100px;
-	margin: auto
+	width: 500px;
+	margin: auto;
+	padding: 20px;
+	background-color: green;
 }
 
 .slides {
@@ -93,14 +104,25 @@ p {
 }
 
 .Footer {
-	border: #1ea0cc;
-	width: 400px;
-	height: 200px;
+	background-color: chocolate;
+	width: 100vw;
+	height: 25vh;
+	margin: auto;
+	padding: 10px;
+}
+
+.Footer h1 {
+	color: black;
+	background-color: burlywood;
 	margin: auto;
 }
 
-.Footer p {
-	width: 50vw;
-	color: black;
-	
+.Footer input {
+	margin: auto;
+	display: block;
+}
+
+.Footer button {
+	margin: auto;
+	display: block;
 }
