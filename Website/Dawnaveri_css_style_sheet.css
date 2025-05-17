@@ -77,38 +77,43 @@ h1 {
 	padding: 20px;
 	border-radius: 50%;
 	float: left;
+	position: relative;
 }
 
 #info {
 	width: 100px;
 	height: 100px;
 	padding: 70px;
+	position: relative;
 	
 	
 }
 
 #slideshow {
-	width: 500px;
+	width: fit-content;
+	height: fit-content;
 	margin: auto;
-	padding: 20px;
+	padding: 100px;
 	background-color: green;
 }
 
 .slides {
 
-	width: 300px;
+	width: 200px;
 	display: block;
 	margin: auto;
 	border-radius: 20px;
+	position: sticky;
 	
 }
 
 .Footer {
 	background-color: chocolate;
 	width: 100vw;
-	height: 25vh;
+	height: 50vh;
 	margin: auto;
-	padding: 10px;
+	padding: 20px;
+	position: relative;
 }
 
 .Footer h1 {
